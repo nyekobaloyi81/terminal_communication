@@ -45,7 +45,7 @@ def YourTurn(client1, client2):
     move = client1.receiveMsg()
     send(Wait_Message, client1)
     #send move to other player
-    send(f"Opponent played {move}", client2)
+    send(f"Opponent played: {move}", client2)
     
 
 
